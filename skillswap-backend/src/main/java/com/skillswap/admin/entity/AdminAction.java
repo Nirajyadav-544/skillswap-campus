@@ -1,0 +1,20 @@
+package com.skillswap.admin.entity;
+
+public enum AdminAction {
+
+    USER_VIEWED,
+    USER_UPDATED,
+    USER_ACTIVATED,
+    USER_DEACTIVATED,
+    USER_DELETED,
+
+    ORGANIZATION_VIEWED,
+    ORGANIZATION_UPDATED,
+    ORGANIZATION_ACTIVATED,
+    ORGANIZATION_DEACTIVATED,
+
+    ADMIN_LOGIN,
+    ADMIN_LOGOUT,
+
+    AUDIT_LOG_VIEWED
+}

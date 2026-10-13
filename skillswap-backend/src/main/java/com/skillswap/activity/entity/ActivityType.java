@@ -1,0 +1,20 @@
+package com.skillswap.activity.entity;
+
+public enum ActivityType {
+
+    SKILL_ADDED,
+
+    SKILL_UPDATED,
+
+    SKILL_DELETED,
+
+    EXCHANGE_REQUEST_SENT,
+
+    EXCHANGE_REQUEST_ACCEPTED,
+
+    EXCHANGE_REQUEST_REJECTED,
+
+    EXCHANGE_REQUEST_CANCELLED,
+
+    EXCHANGE_COMPLETED
+}
